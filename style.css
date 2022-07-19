@@ -1,0 +1,61 @@
+/* * {
+    background: #000 ! important;
+    color: antiquewhite ! important;
+} */
+.bg-black {
+    background: #1d2124;
+}
+#bgdiv {
+    background: transparent;
+    position: absolute;
+    top: 80px;
+}
+
+#profile-photo {
+    margin: auto;
+    margin-top: 10px;
+    background: transparent;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.border-black {
+    border-color: black
+}
+
+.col-sm-6>.card {
+    height: 100%;
+    border-color: #708090;
+}
+
+.col-sm-6 {
+    margin-top: 10px;
+}
+.profile-photo-bg-light {
+    background: transparent;
+}
+
+.profile-photo-bg {
+    background-image: url("./SVG/Taieri.svg");
+}
+
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+@media (min-width: 450px) {
+    #profile-photo {
+            width: 22%!important;
+    }
+}
+
+@media (min-width: 1500px) {
+    #profile-photo {
+            width: 10%!important;
+    }
+}
